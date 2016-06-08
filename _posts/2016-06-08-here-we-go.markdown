@@ -6,7 +6,7 @@ categories:
   - simplicity
 ---
 
-I'm starting the old blog engine up again.
+I'm starting the old blog engine up again.  Lots of coughs and puffing smoke.
 I've long been aware of [Jekyll](https://jekyllrb.com/) but just _now_ started using it.
 
 This is simplicity: [Markdown](https://en.wikipedia.org/wiki/Markdown) to static HTML.
