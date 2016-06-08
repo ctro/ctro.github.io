@@ -9,7 +9,7 @@
 
 # Site settings
 title: Tech, Mountains, Love, &etc.
-tagline: 
+tagline:
 email: clint+blog@ctro.net
 description: > # this means to ignore newlines until "baseurl:"
   I'm Clint Troxel. I work for <a href="https://18f.gsa.gov">18F</a>. I like simplicity.
@@ -26,4 +26,4 @@ paginate: 5
 
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
