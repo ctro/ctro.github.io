@@ -9,14 +9,21 @@
 
 # Site settings
 title: Tech, Mountains, Love, &etc.
+tagline: 
 email: clint+blog@ctro.net
 description: > # this means to ignore newlines until "baseurl:"
-  I'm Clint Troxel. I work for 18F. I like simplicity.
-  I live in Jackson, WY. I Love my family, the mountains, and you.
-baseurl: "" # the subpath of your site, e.g. /blog
+  I'm Clint Troxel. I work for <a href="https://18f.gsa.gov">18F</a>. I like simplicity.
+  I live in <a href="https://goo.gl/maps/dEr21Y8mYNU2">Jackson, WY</a>. I Love my family, the mountains, and you.
+baseurl: / # the subpath of your site, e.g. /blog
 url: "http://ctro.net" # the base hostname & protocol for your site
-twitter_username:
-github_username:  ctro
 
-# Build settings
-markdown: kramdown
+author:
+  name:           'Clint Troxel'
+  url:            https://ctro.net????
+
+gems: [jekyll-paginate]
+paginate: 5
+
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
