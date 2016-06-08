@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Here we go!"
+categories:
+  - meta
+  - simplicity
+---
+
+I'm starting the old blog engine up again.
+I've long been aware of [Jekyll](https://jekyllrb.com/) but just _now_ started using it.
+
+This is simplicity: [Markdown](https://en.wikipedia.org/wiki/Markdown) to static HTML.
+History managed with git.  No databases, no servers. Hosted for free on github.
+
+Updating this blog is as simple as `git push`.
+
+I'm hoping to fill these pages with ramblings from work, life, and family.
+
+No promises though.
