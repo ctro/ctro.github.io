@@ -5,7 +5,7 @@ What is the flavor today?
 
 ```sh
 cd ctro.github.io
-python -m SimpleHTTPServer
+python -m http.server
 open http://localhost:8000
 ```
 OR
