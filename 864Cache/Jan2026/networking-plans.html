@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Networking Plans</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f9fafb;
+            color: #333;
+        }
+        h1 {
+            color: #1e40af;
+            border-bottom: 3px solid #1e40af;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e40af;
+            margin-top: 35px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+        }
+        h3 {
+            color: #374151;
+            margin-top: 25px;
+        }
+        .intro {
+            background: white;
+            padding: 20px 25px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .section {
+            background: white;
+            padding: 20px 25px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        a {
+            color: #2563eb;
+        }
+        a:hover {
+            color: #1d4ed8;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .product {
+            display: inline-block;
+            background: #f0f9ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 6px;
+            padding: 8px 14px;
+            margin: 8px 0;
+        }
+        .product a {
+            font-weight: 500;
+        }
+        .summary-box {
+            background: #f0fdf4;
+            border: 2px solid #86efac;
+            border-radius: 8px;
+            padding: 20px 25px;
+            margin-top: 20px;
+        }
+        .summary-box h2 {
+            color: #166534;
+            border-bottom: none;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .total {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #166534;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 2px solid #86efac;
+        }
+        .note {
+            background: #fefce8;
+            border-left: 4px solid #facc15;
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 15px 0;
+        }
+        .room-image {
+            max-width: 100%;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .nested-list {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        .nested-list li {
+            margin-bottom: 4px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Networking Plans</h1>
+
+    <div class="intro">
+        <p>Thanks Kyle for meeting with us the other day!</p>
+        <p>I've been thinking about the network plan, and wanted to share what I had in mind.</p>
+    </div>
+
+    <div class="section">
+        <h2>Ceiling Blank Request</h2>
+        <p>Before I get to networking, I wanted to ask about adding one more "ceiling blank" — maybe for a fan, maybe for a hanging light in the stairway, centered on the landing. Juniper might want something there, and we don't want to decide right away.</p>
+    </div>
+
+    <div class="section">
+        <h2>Network Hardware</h2>
+        <p>For networking, I'm going to use hardware from <a href="https://www.ui.com/">UniFi</a>.</p>
+
+        <h3>Access Points</h3>
+        <p>I'm thinking 4 Access Points total: 2 upstairs and 2 downstairs. I'd prefer wall-mount options instead of ceiling mount, something like this:</p>
+        <div class="product">
+            <a href="https://store.ui.com/us/en/category/wifi-wall/products/u7-pro-wall">U7 Pro Wall</a>
+        </div>
+        <p>With 4 of them, exact placement is flexible — we can put them wherever seems convenient. There's a tool at ui.com where I can test wifi coverage and AP placement options.</p>
+
+        <h3>Router & Switch</h3>
+        <p>I'd prefer the modem/router/switch be located in the office closet, but the pantry is fine if the office is a pain.</p>
+        <ul>
+            <li>Switch: <a href="https://store.ui.com/us/en/category/all-switching/products/usw-pro-8-poe">USW Pro 8 PoE</a></li>
+            <li>Router: <a href="https://store.ui.com/us/en/category/all-cloud-gateways/products/udr7">UDR7</a></li>
+        </ul>
+        <div class="note">
+            When ordering the equipment I'll need to ensure the switch provides enough PoE power for all the devices.
+        </div>
+
+        <h3>Doorbell Camera</h3>
+        <div class="product">
+            <a href="https://store.ui.com/us/en/category/cameras-doorbells/collections/pro-store-doorbells-chimes/products/uvc-g4-doorbell-pro-poe-kit">G4 Doorbell Pro PoE Kit</a>
+        </div>
+
+        <h3>Security Cameras</h3>
+        <p>I'm also considering adding a few security cameras. I'm not set on this yet — I'm trying to get a consultation from UniFi, but no response yet. The desire mostly comes from a troublesome neighbor. If we decide to add cameras, something like this might work:</p>
+        <div class="product">
+            <a href="https://store.ui.com/us/en/category/all-cameras-nvrs/products/uvc-ai-360">UVC AI 360</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Room Changes</h2>
+        <p>Juniper and I decided to switch what we're calling the "TV room" and the "Office" upstairs. Those are the two main rooms I want cat6 run into. Here's a drawing to help:</p>
+        <img src="room-change-diagram.png" alt="Room change diagram" class="room-image">
+    </div>
+
+    <div class="summary-box">
+        <h2>Summary: Ethernet Outlets Needed</h2>
+
+        <ul>
+            <li><strong>4 for Access Points</strong> (placement TBD)
+                <ul class="nested-list">
+                    <li>2 downstairs</li>
+                    <li>2 upstairs</li>
+                </ul>
+            </li>
+            <li><strong>1 for Doorbell</strong></li>
+            <li><strong>4 in rooms upstairs</strong>
+                <ul class="nested-list">
+                    <li>2x kid bedroom desks</li>
+                    <li>1x office closet (west side) — modem, switch, etc. will live here</li>
+                    <li>1x TV room (south side of east room, against the stairway wall)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="total">Total: 9 outlets</div>
+    </div>
+
+</body>
+</html>
